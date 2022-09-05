@@ -2,6 +2,8 @@ set tabstop=4
 set expandtab
 set shiftwidth=4
 nnoremap q: <Nop>
+autocmd BufWritePre * %s/\s\+$//e
+
 call plug#begin()
 
 Plug 'projekt0n/github-nvim-theme'
