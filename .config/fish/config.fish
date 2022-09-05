@@ -1,3 +1,5 @@
+set -U fish_user_paths /opt/homebrew/bin $fish_user_paths
+
 alias gst="git status"
 alias vim="nvim"
 alias ls="ls --color"
