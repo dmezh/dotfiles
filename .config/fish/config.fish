@@ -1,4 +1,5 @@
-set -U fish_user_paths /opt/homebrew/bin $fish_user_paths
+fish_add_path /opt/homebrew/bin
+fish_add_path /opt/homebrew/opt/binutils/bin
 
 alias gst="git status"
 alias vim="nvim"
